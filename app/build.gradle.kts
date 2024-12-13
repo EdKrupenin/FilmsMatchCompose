@@ -2,7 +2,7 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
-    alias(libs.plugins.kotlin.kapt)
+    alias(libs.plugins.ksp)
 }
 
 android {
@@ -49,8 +49,10 @@ dependencies {
     implementation(project(":features:features_profile"))
     implementation(project(":features:features_main"))
     implementation(project(":features:features_room"))
+    implementation(project(":core:core_api"))
     implementation(libs.dagger)
-    kapt(libs.daggerCompiler)
+    implementation(libs.retrofit)
+    ksp(libs.daggerCompiler)
     implementation(libs.kotlin.stdlib)
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)

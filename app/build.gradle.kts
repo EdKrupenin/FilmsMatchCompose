@@ -44,12 +44,13 @@ android {
 }
 
 dependencies {
-    implementation(project(":core:core_factory"))
-    implementation(project(":features:features_auth"))
-    implementation(project(":features:features_profile"))
-    implementation(project(":features:features_main"))
-    implementation(project(":features:features_room"))
-    implementation(project(":core:core_api"))
+    implementation(project(":sources:main"))
+    implementation(project(":sources:core_factory"))
+    implementation(project(":sources:features_auth"))
+    implementation(project(":sources:features_profile"))
+    implementation(project(":sources:features_main"))
+    implementation(project(":sources:features_room"))
+    implementation(project(":sources:core_api"))
     implementation(libs.dagger)
     implementation(libs.retrofit)
     ksp(libs.daggerCompiler)

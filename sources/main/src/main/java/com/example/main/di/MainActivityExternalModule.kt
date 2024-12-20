@@ -1,5 +1,6 @@
-package com.example.main
+package com.example.main.di
 
+import com.example.core_api.MediatorEntry
 import com.example.main.navigation.MainMediatorImpl
 import com.example.main_api.MainMediator
 import dagger.Binds
@@ -8,9 +9,9 @@ import dagger.multibindings.ClassKey
 import dagger.multibindings.IntoMap
 
 @Module
-interface MainMediatorModule {
+interface MainActivityExternalModule {
     @Binds
     @IntoMap
     @ClassKey(MainMediator::class)
-    fun bindMainMediator(impl: MainMediatorImpl) : Any
+    fun bindMediator(mediator: MainMediatorImpl) : MediatorEntry
 }

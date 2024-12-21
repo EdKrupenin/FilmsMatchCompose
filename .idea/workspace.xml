@@ -9,109 +9,36 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49fa11fa-0e47-4a85-be8f-9b1639c65eaf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/sources/core_api/src/main/java/com/example/core_api/MediatorEntry.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sources/core_api/src/main/java/com/example/core_api/MediatorProvider.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sources/main/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sources/main/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sources/main/consumer-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sources/main/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sources/main/src/androidTest/java/com/example/main/ExampleInstrumentedTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sources/main/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sources/main/src/main/java/com/example/main/MainMediatorModule.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sources/main/src/main/java/com/example/main/di/MainComponent.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sources/main/src/main/java/com/example/main/navigation/MainMediatorImpl.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sources/main/src/main/res/values/string.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sources/main/src/main/res/values/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sources/main/src/test/java/com/example/main/ExampleUnitTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sources/main_api/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sources/main_api/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sources/main_api/consumer-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sources/main_api/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sources/main_api/src/androidTest/java/com/example/main_api/ExampleInstrumentedTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sources/main_api/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sources/main_api/src/main/java/com/example/main_api/MainMediator.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sources/main_api/src/test/java/com/example/main_api/ExampleUnitTest.kt" afterDir="false" />
+    <list default="true" id="49fa11fa-0e47-4a85-be8f-9b1639c65eaf" name="Changes" comment="Continue navCreate">
+      <change afterPath="$PROJECT_DIR$/sources/main/src/main/java/com/example/main/di/MainActivityModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/main/src/main/java/com/example/main/navigation/AppNavigation.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/main/src/main/java/com/example/main/navigation/MainActivityExtendModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/main_api/src/main/java/com/example/main_api/MainActivityMediator.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.9/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.9/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.9/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.9/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.9/checksums/md5-checksums.bin" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.9/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.9/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.9/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.9/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.9/executionHistory/executionHistory.bin" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.9/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.9/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.9/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.9/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.9/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.9/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.9/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.9/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/filmsmatch/ApplicationComponent.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/filmsmatch/ApplicationComponent.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/filmsmatch/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/sources/main/src/main/java/com/example/main/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/filmsmatch/ui/theme/Color.kt" beforeDir="false" afterPath="$PROJECT_DIR$/sources/ui_kit/src/main/java/com/example/ui_kit/theme/Color.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/filmsmatch/ui/theme/Theme.kt" beforeDir="false" afterPath="$PROJECT_DIR$/sources/ui_kit/src/main/java/com/example/ui_kit/theme/Theme.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/filmsmatch/ui/theme/Type.kt" beforeDir="false" afterPath="$PROJECT_DIR$/sources/ui_kit/src/main/java/com/example/ui_kit/theme/Type.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/core_api/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/core_api/build.gradle.kts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/core_api/consumer-rules.pro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/core_api/proguard-rules.pro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/core_api/src/androidTest/java/com/example/core_api/ExampleInstrumentedTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/core_api/src/main/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/core_api/src/main/java/com/example/core_api/AppProvider.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/core_api/src/main/java/com/example/core_api/AppWithApplicationComponent.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/core_api/src/main/java/com/example/core_api/ApplicationComponentProvider.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/core_api/src/main/java/com/example/core_api/NetworkProvider.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/core_api/src/test/java/com/example/core_api/ExampleUnitTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/core_factory/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/core_factory/build.gradle.kts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/core_factory/consumer-rules.pro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/core_factory/proguard-rules.pro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/core_factory/src/androidTest/java/com/example/core_factory/ExampleInstrumentedTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/core_factory/src/main/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/core_factory/src/main/java/com/example/core_factory/CoreProviderFactory.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/core_factory/src/test/java/com/example/core_factory/ExampleUnitTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/core_imp/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/core_imp/build.gradle.kts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/core_imp/consumer-rules.pro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/core_imp/proguard-rules.pro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/core_imp/src/androidTest/java/com/example/core_imp/ExampleInstrumentedTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/core_imp/src/main/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/core_imp/src/main/java/com/example/core_imp/NetworkComponent.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/core_imp/src/main/java/com/example/core_imp/NetworkModule.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/core_imp/src/test/java/com/example/core_imp/ExampleUnitTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/features_auth/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/features_auth/build.gradle.kts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/features_auth/consumer-rules.pro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/features_auth/proguard-rules.pro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/features_auth/src/androidTest/java/com/example/features_auth/ExampleInstrumentedTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/features_auth/src/main/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/features_auth/src/test/java/com/example/features_auth/ExampleUnitTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/features_main/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/features_main/build.gradle.kts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/features_main/consumer-rules.pro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/features_main/proguard-rules.pro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/features_main/src/androidTest/java/com/example/features_main/ExampleInstrumentedTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/features_main/src/main/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/features_main/src/test/java/com/example/features_main/ExampleUnitTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/features_profile/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/features_profile/build.gradle.kts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/features_profile/consumer-rules.pro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/features_profile/proguard-rules.pro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/features_profile/src/androidTest/java/com/example/features_profile/ExampleInstrumentedTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/features_profile/src/main/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/features_profile/src/test/java/com/example/features_profile/ExampleUnitTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/features_room/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/features_room/build.gradle.kts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/features_room/consumer-rules.pro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/features_room/proguard-rules.pro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/features_room/src/androidTest/java/com/example/features_room/ExampleInstrumentedTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/features_room/src/main/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/features_room/src/test/java/com/example/features_room/ExampleUnitTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gradle/libs.versions.toml" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/libs.versions.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/core_api/src/main/java/com/example/core_api/MediatorProvider.kt" beforeDir="false" afterPath="$PROJECT_DIR$/sources/core_api/src/main/java/com/example/core_api/MediatorProvider.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/main/src/main/java/com/example/main/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/sources/main/src/main/java/com/example/main/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/main/src/main/java/com/example/main/di/MainActivityExternalModule.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/main/src/main/java/com/example/main/di/MainComponent.kt" beforeDir="false" afterPath="$PROJECT_DIR$/sources/main/src/main/java/com/example/main/di/MainActivityComponent.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/main/src/main/java/com/example/main/navigation/MainMediatorImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/sources/main/src/main/java/com/example/main/navigation/MainActivityMediatorImpl.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/main_api/src/main/java/com/example/main_api/MainMediator.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +48,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=PhysicalDevice, isTemplate=false, identifier=serial=98141FFAZ002AV)]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=LocalEmulator, isTemplate=false, identifier=path=C:\Users\edkru\.android\avd\Emulator_Pixel_4_API_33.avd)]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -133,8 +60,8 @@
         <option value="Kotlin Object" />
         <option value="Class" />
         <option value="valueResourceFile" />
-        <option value="Kotlin Class" />
         <option value="Kotlin Interface" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -162,25 +89,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Android App.app.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "com.google.services.firebase.aqiPopupShown": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/edkru/StudioProjects/FilmsMatchCompose/sources/ui_kit/src/main/java/com/example/ui_kit",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.17",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "com.android.studio.ml.bot.mainConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Android App.app.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;com.google.services.firebase.aqiPopupShown&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/edkru/StudioProjects/FilmsMatchCompose/sources/ui_kit/src/main/java/com/example/ui_kit&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.android.studio.ml.bot.mainConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="PsdUISettings">
     <option name="MODULE_TAB" value="Signing Configs" />
     <option name="LAST_EDITED_SIGNING_CONFIG" value="debug" />

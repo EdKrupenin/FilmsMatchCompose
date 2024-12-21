@@ -9,10 +9,13 @@ import androidx.navigation.NavBackStackEntry
 import androidx.navigation.NavHostController
 import com.example.core_api.Destinations
 import com.example.main.ui.Greeting
-import com.example.main_api.MainMediator
+import com.example.main_api.MainActivityMediator
 import javax.inject.Inject
 
-class MainMediatorImpl @Inject constructor() : MainMediator() {
+class MainActivityMediatorImpl @Inject constructor() : MainActivityMediator {
+
+    override val featureRoute: String = "main"
+
     @Composable
     override fun Composable(
         navController: NavHostController,
